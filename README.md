@@ -1,7 +1,7 @@
 # Humor-aware-retrieval
 
 ## 项目简介
-#.ipynb_checkpoints 1.tar PathRAG-main SubgraphRAG-One SubgraphRAG-Three SubgraphRAG-Two cmd datasets id_ed25519.pub logs pretrain_model save_pretrain_model software stu-3031 subgraph.tar 
+
 conda activate Humor-Aware Retrieval）系统，主要用于信息检索（Information Retrieval）任务，具体应用于JOKER（CLEF）评估活动的Task 1（幽默检索）。
 
 conda activate Dual Encoder）和协同分类模型（Sequence Classification），实现了两阶段检索：
@@ -13,7 +13,7 @@ conda activate Dual Encoder）和协同分类模型（Sequence Classification）
 - `EN_output.py`: 模型推理代码，读取英文测试数据集，使用训练好的RoBERTa模型对文本进行打分和排序，并将结果转换为标准格式输出（例如TREC run格式）。
 #- `test1.py`: 检索和召回模块的执行代码。它加载了双编码器模型，对文档库进行编码，计算给定的测试查询
  >0.1）筛选出候选集，保存为 JSON 格式供下一阶段使用
-- `load_data.py`: 数据加载和预处理代码，定义了 `DualEncoder` 和 `MultiPositiveDataset`，以及用于对比学习（InfoNCE / 多正样本损失）/stu-3035/logs/algorithm_data/Humor-aware-retrieval/README.md/stu-3035/logs/algorithm_data/Humor-aware-retrieval/README.md
+- `load_data.py`: 数据加载和预处理代码，定义了 `DualEncoder` 和 `MultiPositiveDataset`，以及用于对比学习（InfoNCE / 多正样本损失）
 - `packerages.py`: 依赖包管理脚本
 - `set_paramters.py`: 参数配置文件。
 
